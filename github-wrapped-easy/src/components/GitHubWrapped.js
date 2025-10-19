@@ -28,7 +28,7 @@ const GitHubWrapped = () => {
       }
       
       // TODO: Fetch user data from `https://api.github.com/users/...`, look at the GitHub API docs to learn more.
-      const userResponse = await None; // CHANGE THIS
+      const userResponse = await {}; // CHANGE THIS
       setUserData(userResponse.data);
       
       // Fetch user repositories (includes private repos if authenticated)
